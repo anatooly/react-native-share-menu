@@ -6,6 +6,8 @@ Add your app as a target for sharing from other apps and write iOS Share Extensi
 
 ## Merge PR
 
+https://github.com/Expensify/react-native-share-menu/pull/197
+[-] https://github.com/Expensify/react-native-share-menu/pull/163 <-- Share without open custom share app extension
 https://github.com/Expensify/react-native-share-menu/pull/204
 https://github.com/Expensify/react-native-share-menu/pull/260
 https://github.com/Expensify/react-native-share-menu/pull/156

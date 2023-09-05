@@ -33,8 +33,6 @@ class ShareViewController: SLComposeServiceViewController {
     } else {
       print("Error: \(NO_INFO_PLIST_URL_SCHEME_ERROR)")
     }
-
-    didSelectPost()
   }
 
     override func isContentValid() -> Bool {
@@ -49,7 +47,12 @@ class ShareViewController: SLComposeServiceViewController {
         return
       }
 
-      handlePost(items)
+      if (contentText != nil && contentText != "") {
+        let extraData: [String: Any] = ["userInput": contentText as String]
+        handlePost(items, extraData: extraData)
+      } else {
+        handlePost(items)
+      }
     }
 
     override func configurationItems() -> [Any]! {
