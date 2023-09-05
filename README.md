@@ -4,6 +4,13 @@
 
 Add your app as a target for sharing from other apps and write iOS Share Extensions in React Native.
 
+## Merge PR
+
+https://github.com/Expensify/react-native-share-menu/pull/204
+https://github.com/Expensify/react-native-share-menu/pull/260
+https://github.com/Expensify/react-native-share-menu/pull/156
+https://github.com/Expensify/react-native-share-menu/pull/246
+
 ## Installation
 
 ```bash
